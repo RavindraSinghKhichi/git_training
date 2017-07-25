@@ -28,9 +28,11 @@ If we wish to Remove data From Index
 		$git rm 
 
 #this will remove from both working aread and index
+
 		git rm -f  
 
 #this will remove from Index only
+
 		$git rm --cached
 
-
+#git mv can be used to rename or move data from working area to the index

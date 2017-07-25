@@ -1,6 +1,11 @@
 #!/bin/bash
 
-git add .
+echo "current status"
 git status
-git commit -am $1
+git add .
+echo "added to staging"
+git status
+echo "commiting..............."
+git commit -m $1
+echo "pushing"
 git push -u origin master
