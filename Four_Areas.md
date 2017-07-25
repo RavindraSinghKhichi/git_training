@@ -19,4 +19,18 @@ Checkout command works the same but in reverse direction.it changes the two thin
         	  workingArea<---Index<-----Repo
 
 
-So it Changes the repo first and moves data second. 
+So it Changes the repo first and moves data second.
+
+------------------------------Removing data-----------------------------
+
+If we wish to Remove data From Index
+#this will give warning
+		$git rm 
+
+#this will remove from both working aread and index
+		git rm -f  
+
+#this will remove from Index only
+		$git rm --cached
+
+
